@@ -5,6 +5,8 @@ export const NavBarContainerDiv = styled.div`
     justify-content: space-around;
     align-items: center;
     height: 10vh;
+    position: absolute;
+    width: 100%;
 `;
 
 export const NavBarContainerLogoDiv = styled.div`
@@ -48,8 +50,13 @@ export const NavBarContainerLoginDiv = styled.div`
     cursor: pointer;
 
     p {
-        font-size: 16px;;
+        font-size: 16px;
         font-weitght: 400;
+        color: #ffffff;
+    }
+
+    svg {
+        color: #ffffff;
     }
 
     &:hover {

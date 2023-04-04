@@ -1,6 +1,8 @@
+import { Header } from "../../Components/Header";
 import { NavBar } from "../../Components/NavBar";
 import {
     NavBarContainerSection,
+    HeaderContainerSection
 } from "./style";
 
 export function HomePage() {
@@ -9,6 +11,9 @@ export function HomePage() {
             <NavBarContainerSection>
                 <NavBar />
             </NavBarContainerSection>
+            <HeaderContainerSection>
+                <Header />
+            </HeaderContainerSection >
         </>
     )
 }
