@@ -41,6 +41,7 @@ export const HeaderContentDiv = styled.div`
         font-weight: 400;
         font-size: 18px;
         margin-bottom: 25px;
+        color: #ffffff;
 
         @media only screen and (max-width: 900px){
             font-size: 14px;
