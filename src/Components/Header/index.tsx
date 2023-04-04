@@ -2,6 +2,7 @@ import { ArrowRight } from "phosphor-react";
 import {
     HeaderContainerDiv,
     HeaderContentDiv,
+    HeaderButtonDiv,
     HeaderImageDiv
 } from "./style";
 
@@ -13,17 +14,19 @@ export function Header() {
             <HeaderContainerDiv>
                 <HeaderContentDiv>
                     <h6>Welcome! Future Platform</h6>
-                    <h1>The World's Most Modern Card Platform</h1>
+                    <h1>The World's Most Modern Card <span>Platform</span></h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
-                    <a>
-                        <span>Get Started</span>
-                        <ArrowRight size={32} />
-                    </a>
+                    <HeaderButtonDiv>
+                        <span>
+                            Get Started
+                            <ArrowRight size={20} />
+                        </span>
+                    </HeaderButtonDiv>
                 </HeaderContentDiv>
                 <HeaderImageDiv>
                     <img src={ImageCardsHeader} />
                 </HeaderImageDiv>
-            </HeaderContainerDiv>
+            </HeaderContainerDiv >
         </>
     )
 }

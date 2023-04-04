@@ -13,5 +13,9 @@ export const HeaderContainerSection = styled.section`
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    padding: 0 3rem;
+    padding: 0 5rem;
+
+    @media only screen and (max-width: 500px){
+        padding: 0 1rem;
+    }
 `;
